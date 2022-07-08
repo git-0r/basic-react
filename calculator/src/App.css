@@ -1,0 +1,21 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  max-width: 500px;
+}
+
+.result {
+  background-color: wheat;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: right;
+  padding: 0.5rem;
+}
+
+.key {
+  text-align: center;
+  background-color: gray;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
