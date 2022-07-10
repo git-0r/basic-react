@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+
+.todo-container {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.btns {
+  display: flex;
+  margin: 0.5rem;
+  justify-content: space-evenly;
+}
+
+.mod-buttons {
+  visibility: hidden;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: whitesmoke;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  z-index: 10;
+}
+
+.modal input {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.modal-close-btn {
+  display: block;
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+}
+
+.edit-button,
+.delete-button  {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.todo:hover .mod-buttons {
+  visibility: visible;
+}
+
+.heading {
+  text-align: center;
+}
+
+.todo-input {
+  height: 2rem;
+  margin: 1rem 0;
+  padding: 0.5rem
+}
+
+ion-icon {
+  cursor: pointer;
+}

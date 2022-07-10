@@ -1,8 +1,12 @@
-.App {
+.calculator {
+  max-width: 500px;
+  margin: 10rem auto;
+}
+
+.keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  max-width: 500px;
 }
 
 .result {
@@ -11,6 +15,9 @@
   grid-column-end: 5;
   text-align: right;
   padding: 0.5rem;
+  height: 50px;
+  border: 1px solid gray;
+  font-size: 2rem;
 }
 
 .key {
@@ -18,4 +25,5 @@
   background-color: gray;
   padding: 0.5rem;
   border: 1px solid black;
+  cursor: pointer;
 }
