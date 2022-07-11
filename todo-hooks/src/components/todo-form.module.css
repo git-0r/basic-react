@@ -1,0 +1,14 @@
+.todoForm {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.todoForm input {
+    flex: 10;
+    height: 2rem;
+}
+
+.todoForm button {
+    margin: 0 0.5rem;
+    flex: 2;
+}
