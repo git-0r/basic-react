@@ -1,6 +1,7 @@
 .calculator {
   max-width: 500px;
-  margin: 10rem auto;
+  margin: 5rem auto;
+  box-shadow: 5px 5px 20px gold;
 }
 
 .keys {
@@ -16,14 +17,25 @@
   text-align: right;
   padding: 0.5rem;
   height: 50px;
-  border: 1px solid gray;
+  border: 1px solid rgb(128, 128, 128);
   font-size: 2rem;
 }
 
 .key {
   text-align: center;
-  background-color: gray;
+  background-color: rgb(128, 128, 128, 0.5);
   padding: 0.5rem;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0, 0.2);
   cursor: pointer;
+  font-size: 2rem;
+}
+
+.calculate {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  font-size: 2rem;
+}
+
+h1 {
+  text-align: center;
 }
